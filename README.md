@@ -1,6 +1,7 @@
 # Apache Airflow ETL — API → PostgreSQL Pipeline
 A simple **ETL (Extract, Transform, Load)** project built with **Apache Airflow** running in **Docker Compose**.  
 This example demonstrates how to orchestrate daily workflows that extract data from an API, transform it using Python & Pandas, and load the results into PostgreSQL.
+<img width="1880" height="547" alt="image" src="https://github.com/user-attachments/assets/baa3e1f6-f1c4-49e0-8eb5-7d7e1cb08253" />
 
 ## 🚀 Features
 
