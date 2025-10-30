@@ -30,7 +30,7 @@ with DAG(
 ) as dag:
 
     # ---------------------------
-    # Task 1: Extract data from API
+    # Task 1: Extract data from API exmaple API : https://jsonplaceholder.typicode.com/users
     # ---------------------------
     def extract_data():
         url = "https://jsonplaceholder.typicode.com/users"
@@ -67,9 +67,9 @@ with DAG(
         df = pd.read_csv("/tmp/api_clean_data.csv")
         conn = psycopg2.connect(
             host="localhost",
-            dbname="airflow_db",
-            user="airflow_user",
-            password="airflow_pass"
+            dbname="airflowdb",
+            user="airflow",
+            password="airflow"
         )
         cur = conn.cursor()
         cur.execute("""
@@ -95,4 +95,4 @@ with DAG(
     # ---------------------------
     # Set task dependencies
     # ---------------------------
-    #extract_task >> transform_task >> load_task
+    extract_task >> transform_task >> load_task
