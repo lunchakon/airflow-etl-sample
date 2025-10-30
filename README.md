@@ -16,7 +16,6 @@ This example demonstrates how to orchestrate daily workflows that extract data f
 
 ## 🏗️ Architecture Overview
 
-```mermaid
 graph TD;
     A[API Source] --> B[Airflow Extract Task];
     B --> C[Transform Task (Pandas)];
