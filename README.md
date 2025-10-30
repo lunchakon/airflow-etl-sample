@@ -15,7 +15,7 @@ This example demonstrates how to orchestrate daily workflows that extract data f
 
 
 ## 🏗️ Architecture Overview
-
+```
 graph TD;
     A[API Source] --> B[Airflow Extract Task];
     B --> C[Transform Task (Pandas)];
@@ -23,7 +23,7 @@ graph TD;
     D --> E[Data Warehouse / Reports];
 	
 	
-	airflow-etl/
+airflow-etl/
 ├── dags/
 │   └── api_to_postgres_dag.py     # DAG definition
 ├── logs/                          # Airflow logs
