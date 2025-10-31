@@ -14,6 +14,7 @@ x-airflow-common: &airflow-common
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./requirements.txt:/requirements.txt
+    - ./tmp:/tmp
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     - postgres
@@ -54,7 +55,7 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - airflow-init
+      - postgres
 
   airflow-scheduler:
     <<: *airflow-common

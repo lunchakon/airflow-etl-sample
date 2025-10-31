@@ -797,3 +797,136 @@
 [2025-10-30T17:07:03.320+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:07:03.319+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-10-30T17:07:03.342+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:07:03.342+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
 [2025-10-30T17:07:03.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.398 seconds
+[2025-10-30T17:07:33.575+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:07:33.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:07:33.578+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:07:33.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:07:33.861+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:07:33.891+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:07:33.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:07:33.914+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:07:33.914+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:07:33.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.366 seconds
+[2025-10-30T17:08:04.130+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:04.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:08:04.135+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:04.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:04.455+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:04.487+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:04.487+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:08:04.513+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:04.512+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:08:04.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.417 seconds
+[2025-10-30T17:08:34.747+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:34.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:08:34.752+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:34.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:35.052+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:08:35.086+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:35.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:08:35.109+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:08:35.109+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:08:35.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.391 seconds
+[2025-10-30T17:09:05.298+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:05.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:09:05.301+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:05.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:05.581+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:05.610+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:05.610+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:09:05.632+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:05.631+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:09:05.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.360 seconds
+[2025-10-30T17:09:35.833+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:35.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:09:35.836+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:35.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:36.126+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:09:36.156+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:36.156+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:09:36.178+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:09:36.178+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:09:36.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.382 seconds
+[2025-10-30T17:10:06.392+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:06.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:10:06.395+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:06.394+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:06.685+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:06.716+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:06.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:10:06.738+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:06.738+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:10:06.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.380 seconds
+[2025-10-30T17:10:36.953+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:36.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:10:36.957+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:36.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:37.235+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:10:37.269+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:37.268+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:10:37.293+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:10:37.293+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:10:37.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.369 seconds
+[2025-10-30T17:11:07.523+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:07.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:11:07.528+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:07.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:07.868+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:07.903+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:07.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:11:07.928+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:07.928+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:11:07.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.436 seconds
+[2025-10-30T17:11:38.131+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:38.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:11:38.135+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:38.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:38.431+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:11:38.461+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:38.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:11:38.484+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:11:38.483+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:11:38.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.380 seconds
+[2025-10-30T17:12:08.691+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:08.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:12:08.696+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:08.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:08.986+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:09.015+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:09.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:12:09.036+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:09.036+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:12:09.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.374 seconds
+[2025-10-30T17:12:39.260+0000] {processor.py:161} INFO - Started process (PID=532) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:39.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:12:39.265+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:39.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:39.578+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:12:39.607+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:39.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:12:39.631+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:12:39.631+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:12:39.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.404 seconds
+[2025-10-30T17:13:09.857+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:09.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:13:09.861+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:09.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:10.198+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:10.233+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:10.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:13:10.264+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:10.264+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:13:10.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.442 seconds
+[2025-10-30T17:13:40.483+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:40.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:13:40.487+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:40.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:40.772+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:13:40.807+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:40.807+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:13:40.832+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:13:40.832+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:13:40.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.386 seconds
+[2025-10-30T17:14:11.040+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:11.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:14:11.044+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:11.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:11.347+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:11.379+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:11.378+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:14:11.403+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:11.402+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:14:11.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.391 seconds
+[2025-10-30T17:14:41.631+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:41.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:14:41.635+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:41.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:41.972+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:14:42.009+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:42.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:14:42.036+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:14:42.036+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:14:42.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.444 seconds
+[2025-10-30T17:15:12.264+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:12.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:15:12.268+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:12.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:12.581+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:12.619+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:12.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:15:12.643+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:12.643+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:15:12.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.407 seconds
+[2025-10-30T17:15:42.858+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:42.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:15:42.862+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:42.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:43.189+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:15:43.225+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:43.225+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:15:43.250+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:15:43.250+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:15:43.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.430 seconds
+[2025-10-30T17:16:13.492+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:13.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:16:13.495+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:13.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:13.801+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:13.835+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:13.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:16:13.861+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:13.861+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:16:13.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.408 seconds
+[2025-10-30T17:16:44.108+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:44.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api_to_postgres_dag.py for tasks to queue
+[2025-10-30T17:16:44.114+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:44.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:44.481+0000] {processor.py:840} INFO - DAG(s) 'api_to_postgres_dag' retrieved from /opt/airflow/dags/api_to_postgres_dag.py
+[2025-10-30T17:16:44.514+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:44.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-30T17:16:44.545+0000] {logging_mixin.py:188} INFO - [2025-10-30T17:16:44.545+0000] {dag.py:3954} INFO - Setting next_dagrun for api_to_postgres_dag to 2025-10-30 00:00:00+00:00, run_after=2025-10-31 00:00:00+00:00
+[2025-10-30T17:16:44.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api_to_postgres_dag.py took 0.485 seconds

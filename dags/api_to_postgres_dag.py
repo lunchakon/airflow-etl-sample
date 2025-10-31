@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import requests
 import pandas as pd
 import psycopg2
+from pandas import json_normalize
 
 # ---------------------------
 # Default DAG arguments
@@ -36,7 +37,8 @@ with DAG(
         url = "https://jsonplaceholder.typicode.com/users"
         response = requests.get(url)
         data = response.json()
-        df = pd.DataFrame(data)
+
+        df = json_normalize(data)
         df.to_csv("/tmp/api_raw_data.csv", index=False)
         print("✅ Extracted and saved raw data.")
     
@@ -66,8 +68,8 @@ with DAG(
     def load_data():
         df = pd.read_csv("/tmp/api_clean_data.csv")
         conn = psycopg2.connect(
-            host="localhost",
-            dbname="airflowdb",
+            host="postgres",
+            dbname="airflow",
             user="airflow",
             password="airflow"
         )
